@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB7C41C1C7E817800F17831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7C41B1C7E817800F17831 /* AppDelegate.swift */; };
+		1FB7C41E1C7E817800F17831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7C41D1C7E817800F17831 /* ViewController.swift */; };
+		1FB7C4201C7E817800F17831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB7C41F1C7E817800F17831 /* Assets.xcassets */; };
+		1FB7C4231C7E817800F17831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB7C4211C7E817800F17831 /* Main.storyboard */; };
+		1FB7C42E1C7E817800F17831 /* MinutemenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7C42D1C7E817800F17831 /* MinutemenTests.swift */; };
+		1FB7C4391C7E817800F17831 /* MinutemenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7C4381C7E817800F17831 /* MinutemenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB7C42A1C7E817800F17831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB7C4101C7E817800F17831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB7C4171C7E817800F17831;
+			remoteInfo = Minutemen;
+		};
+		1FB7C4351C7E817800F17831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB7C4101C7E817800F17831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB7C4171C7E817800F17831;
+			remoteInfo = Minutemen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FB7C4181C7E817800F17831 /* Minutemen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutemen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB7C41B1C7E817800F17831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB7C41D1C7E817800F17831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB7C41F1C7E817800F17831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB7C4221C7E817800F17831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB7C4241C7E817800F17831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB7C4291C7E817800F17831 /* MinutemenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutemenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB7C42D1C7E817800F17831 /* MinutemenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutemenTests.swift; sourceTree = "<group>"; };
+		1FB7C42F1C7E817800F17831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB7C4341C7E817800F17831 /* MinutemenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutemenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB7C4381C7E817800F17831 /* MinutemenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutemenUITests.swift; sourceTree = "<group>"; };
+		1FB7C43A1C7E817800F17831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB7C4151C7E817800F17831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4261C7E817800F17831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4311C7E817800F17831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB7C40F1C7E817800F17831 = {
+			isa = PBXGroup;
+			children = (
+				1FB7C41A1C7E817800F17831 /* Minutemen */,
+				1FB7C42C1C7E817800F17831 /* MinutemenTests */,
+				1FB7C4371C7E817800F17831 /* MinutemenUITests */,
+				1FB7C4191C7E817800F17831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB7C4191C7E817800F17831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7C4181C7E817800F17831 /* Minutemen.app */,
+				1FB7C4291C7E817800F17831 /* MinutemenTests.xctest */,
+				1FB7C4341C7E817800F17831 /* MinutemenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB7C41A1C7E817800F17831 /* Minutemen */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7C41B1C7E817800F17831 /* AppDelegate.swift */,
+				1FB7C41D1C7E817800F17831 /* ViewController.swift */,
+				1FB7C41F1C7E817800F17831 /* Assets.xcassets */,
+				1FB7C4211C7E817800F17831 /* Main.storyboard */,
+				1FB7C4241C7E817800F17831 /* Info.plist */,
+			);
+			path = Minutemen;
+			sourceTree = "<group>";
+		};
+		1FB7C42C1C7E817800F17831 /* MinutemenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7C42D1C7E817800F17831 /* MinutemenTests.swift */,
+				1FB7C42F1C7E817800F17831 /* Info.plist */,
+			);
+			path = MinutemenTests;
+			sourceTree = "<group>";
+		};
+		1FB7C4371C7E817800F17831 /* MinutemenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7C4381C7E817800F17831 /* MinutemenUITests.swift */,
+				1FB7C43A1C7E817800F17831 /* Info.plist */,
+			);
+			path = MinutemenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB7C4171C7E817800F17831 /* Minutemen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB7C43D1C7E817800F17831 /* Build configuration list for PBXNativeTarget "Minutemen" */;
+			buildPhases = (
+				1FB7C4141C7E817800F17831 /* Sources */,
+				1FB7C4151C7E817800F17831 /* Frameworks */,
+				1FB7C4161C7E817800F17831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minutemen;
+			productName = Minutemen;
+			productReference = 1FB7C4181C7E817800F17831 /* Minutemen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FB7C4281C7E817800F17831 /* MinutemenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB7C4401C7E817800F17831 /* Build configuration list for PBXNativeTarget "MinutemenTests" */;
+			buildPhases = (
+				1FB7C4251C7E817800F17831 /* Sources */,
+				1FB7C4261C7E817800F17831 /* Frameworks */,
+				1FB7C4271C7E817800F17831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB7C42B1C7E817800F17831 /* PBXTargetDependency */,
+			);
+			name = MinutemenTests;
+			productName = MinutemenTests;
+			productReference = 1FB7C4291C7E817800F17831 /* MinutemenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FB7C4331C7E817800F17831 /* MinutemenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB7C4431C7E817800F17831 /* Build configuration list for PBXNativeTarget "MinutemenUITests" */;
+			buildPhases = (
+				1FB7C4301C7E817800F17831 /* Sources */,
+				1FB7C4311C7E817800F17831 /* Frameworks */,
+				1FB7C4321C7E817800F17831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB7C4361C7E817800F17831 /* PBXTargetDependency */,
+			);
+			name = MinutemenUITests;
+			productName = MinutemenUITests;
+			productReference = 1FB7C4341C7E817800F17831 /* MinutemenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB7C4101C7E817800F17831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luigi Freitas";
+				TargetAttributes = {
+					1FB7C4171C7E817800F17831 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1FB7C4281C7E817800F17831 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1FB7C4171C7E817800F17831;
+					};
+					1FB7C4331C7E817800F17831 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1FB7C4171C7E817800F17831;
+					};
+				};
+			};
+			buildConfigurationList = 1FB7C4131C7E817800F17831 /* Build configuration list for PBXProject "Minutemen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB7C40F1C7E817800F17831;
+			productRefGroup = 1FB7C4191C7E817800F17831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB7C4171C7E817800F17831 /* Minutemen */,
+				1FB7C4281C7E817800F17831 /* MinutemenTests */,
+				1FB7C4331C7E817800F17831 /* MinutemenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB7C4161C7E817800F17831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7C4201C7E817800F17831 /* Assets.xcassets in Resources */,
+				1FB7C4231C7E817800F17831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4271C7E817800F17831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4321C7E817800F17831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB7C4141C7E817800F17831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7C41E1C7E817800F17831 /* ViewController.swift in Sources */,
+				1FB7C41C1C7E817800F17831 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4251C7E817800F17831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7C42E1C7E817800F17831 /* MinutemenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB7C4301C7E817800F17831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7C4391C7E817800F17831 /* MinutemenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB7C42B1C7E817800F17831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB7C4171C7E817800F17831 /* Minutemen */;
+			targetProxy = 1FB7C42A1C7E817800F17831 /* PBXContainerItemProxy */;
+		};
+		1FB7C4361C7E817800F17831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB7C4171C7E817800F17831 /* Minutemen */;
+			targetProxy = 1FB7C4351C7E817800F17831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB7C4211C7E817800F17831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB7C4221C7E817800F17831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB7C43B1C7E817800F17831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FB7C43C1C7E817800F17831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FB7C43E1C7E817800F17831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Minutemen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.Minutemen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FB7C43F1C7E817800F17831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Minutemen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.Minutemen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FB7C4411C7E817800F17831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinutemenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.MinutemenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutemen.app/Contents/MacOS/Minutemen";
+			};
+			name = Debug;
+		};
+		1FB7C4421C7E817800F17831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinutemenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.MinutemenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minutemen.app/Contents/MacOS/Minutemen";
+			};
+			name = Release;
+		};
+		1FB7C4441C7E817800F17831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinutemenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.MinutemenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Minutemen;
+			};
+			name = Debug;
+		};
+		1FB7C4451C7E817800F17831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinutemenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.luigifreitas.MinutemenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Minutemen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB7C4131C7E817800F17831 /* Build configuration list for PBXProject "Minutemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB7C43B1C7E817800F17831 /* Debug */,
+				1FB7C43C1C7E817800F17831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB7C43D1C7E817800F17831 /* Build configuration list for PBXNativeTarget "Minutemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB7C43E1C7E817800F17831 /* Debug */,
+				1FB7C43F1C7E817800F17831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB7C4401C7E817800F17831 /* Build configuration list for PBXNativeTarget "MinutemenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB7C4411C7E817800F17831 /* Debug */,
+				1FB7C4421C7E817800F17831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB7C4431C7E817800F17831 /* Build configuration list for PBXNativeTarget "MinutemenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB7C4441C7E817800F17831 /* Debug */,
+				1FB7C4451C7E817800F17831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB7C4101C7E817800F17831 /* Project object */;
+}
