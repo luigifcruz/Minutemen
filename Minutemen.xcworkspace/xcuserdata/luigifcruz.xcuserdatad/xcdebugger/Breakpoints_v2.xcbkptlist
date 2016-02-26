@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOF/TodayViewController.swift"
+            timestampString = "478058994.414284"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TodayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOF.TodayViewController.__deallocating_deinit"
+                  moduleName = "IOF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luigifcruz/Downloads/Minutemen/IOF/TodayViewController.swift"
+                  timestampString = "478059440.689644"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOF.TodayViewController.init (IOF.TodayViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Swift.Optional&lt;IOF.TodayViewController&gt;"
+                  moduleName = "IOF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luigifcruz/Downloads/Minutemen/IOF/TodayViewController.swift"
+                  timestampString = "478059440.689957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOF.TodayViewController.init (IOF.TodayViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IOF.TodayViewController&gt;"
+                  moduleName = "IOF"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luigifcruz/Downloads/Minutemen/IOF/TodayViewController.swift"
+                  timestampString = "478059440.690121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
